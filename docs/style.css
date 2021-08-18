@@ -87,7 +87,7 @@ animation: BACKGROUND-ANIMATION-GRADIENT 13s ease infinite;
 }
 
 .button {
-  border-radius: 10px ;
+  border-radius: 7px ;
   border-width: 0;
   color: black;
   padding: 16px 100px;
