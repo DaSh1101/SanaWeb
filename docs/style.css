@@ -82,12 +82,10 @@ animation: BACKGROUND-ANIMATION-GRADIENT 13s ease infinite;
 .button:hover {
   background-color: #4CAF50;
   color: white ;
-  border: 5px solid #4CAF50;
 }
 
 .button {
   border-radius: 10px ;
-  border: curve;
   color: black;
   padding: 16px 100px;
   text-align: center;
@@ -98,4 +96,3 @@ animation: BACKGROUND-ANIMATION-GRADIENT 13s ease infinite;
   transition-duration: 0.3s;
   cursor: Pointer;
 }
-
