@@ -42,7 +42,6 @@
   <a href="https://sanaclient.xyz/all">All Releases</a>
   <a href="https://sanaclient.xyz/pre">Pre Releases</a>
   <b1>Your playing "CPS-Tester"</b1>
-	<b2 id=pr>Your High </b2>
 </div>
 <style>
 
@@ -61,15 +60,7 @@ text-align: center;
 padding: 14px 16px;
 text-decoration: none;
 }
-.navbar b2 {
-color:#ddd;
-float: right;
-font-size: 16px;
-color: white;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-}
+
 #info {
    
 	color:#ffffff;
@@ -115,9 +106,7 @@ left:50px;
 			!function(){function e(e,n,t){const s=e+1e3-n;document.getElementById("info").innerHTML=`Time: ${(s/1e3).toFixed(1)}s&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clicks: ${t}`}document.addEventListener("DOMContentLoaded",function(){let n,t,s=!1,i=0;document.getElementById("clicker").addEventListener("click",function(c){c.isTrusted&&(s?(new Date).getTime()<t+1e4&&i++:(i++,s=!0,document.getElementById("cps").innerText="",t=(new Date).getTime(),n=setInterval(function(){(new Date).getTime()<t+1e3?e(t,(new Date).getTime(),i):(e(t,t+1e3,i),clearInterval(n),document.getElementById("cps").innerText=`Your CPS is: ${(i/1).toFixed(2)}`,alert("Your CPS is "+(i/1).toFixed(2)+"!"),setTimeout(function(){s=!1,i=0},1e2))},10)))})})}();
 
 	</script>
-<script>
-	  document.cookie = pr + "=" + cps ";path=/";
-	</script>
+
 </head>
 
 <body>
