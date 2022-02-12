@@ -1,6 +1,6 @@
 {
-    "del-forge": "false",
-    "del-vanilla": "false",
-    "update-vanilla": "false", 
-    "update-forge": "false",
+    "delforge": "false",
+    "delvanilla": "false",
+    "updatevanilla": "false", 
+    "updateforge": "false"
 }
