@@ -18,7 +18,7 @@
     <link href="2048\style.css" rel="stylesheet" type="text/css">
 </head>
 
-  
+
 <header>
     <a style="cursor: pointer;" class="logo" href="https://sanaclient.xyz/">Sana Client</a>
     <div class="navigation">
@@ -27,28 +27,18 @@
             <li class="menu-item"><a style="cursor: pointer;" href="https://sanaclient.xyz/">Home</a></li>
             <li class="menu-item"><a style="cursor: pointer;" href="https://sanaclient.xyz/games">Games</a></li>
             <li class="menu-item">
-                <a class="sub-btn" style="cursor: pointer;">Downloads<i class="fas fa-angle-down"></i></a>
+                <a class="sub-btn" style="cursor: pointer;"><i class="fa fa-download"></i> Downloads</a>
                 <ul class="sub-menu">
                     <li class="sub-item"><a href="https://sanaclient.xyz/">SCMC 1.0</a></li>
                 </ul>
             </li>
             <li class="menu-item"></li>
-            <li class="menu-item"><a style="cursor: pointer;"id="about">About</a></li>
-        
+            <li class="menu-item"><a style="cursor: pointer;" id="about">About</a></li>
+
             <li class="menu-item"><a style="cursor: pointer;" id="contact">Contact</a></li>
         </ul>
     </div>
     <div class="menu-btn"></div>
-    <div id="about_modal" class="about_modal">
-        <div class="about_modal-content">
-            <span class="about_close">&times;</span>
-            <p style="color: black;"> Sana Client is a cracked Minecraft client. It was all based on a idea I had im my first year of middle school that had to do with makeing a minecraft client. I beginned with programming in cmd, which isn't really a coding language but I made
-                it work. Now Sana Client is programmed mainly in c# and soon we would like to migrate to c++ for linux development, but Sana Client isn't finished yet so we hope to see you in the future... (;</p>
-            <br></br>
-            <h6 style="color: black;">Note: Sana requires .net 4.0 which is pre loaded with Windows 10, 8, 8.1, and 11. If you have any older os, please download .net 4.0</h6>
-            <h6 style="color: black;">Warn: Any conflict to do with piracy is not our problem, as we are not the ones playing it.</h6>
-        </div>
-    </div>
     <div id="contact_modal" class="contact_modal">
         <div class="contact_modal-content">
             <span class="contact_close">&times;</span>
@@ -57,91 +47,93 @@
     </div>
     <script src="../main.js"></script>
 </header>
+
 <body>
- 
-  <div class="container">
-    <div class="heading">
-      <div class="scores-container">
-        <div class="score-container">0</div>
-        <div class="best-container">0</div>
-      </div>
-          <div class="above-game">
-      <a class="restart-button">New Game</a>
+
+    <div class="container">
+        <div class="heading">
+            <div class="scores-container">
+                <div class="score-container">0</div>
+                <div class="best-container">0</div>
+            </div>
+            <div class="above-game">
+                <a class="restart-button">New Game</a>
+            </div>
+
+        </div>
+        <div class="game-container">
+            <div class="game-message">
+                <p></p>
+                <div class="lower">
+                    <a class="keep-playing-button">Keep going</a>
+                    <a class="retry-button">Try again</a>
+                </div>
+            </div>
+
+            <div class="grid-container">
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+            </div>
+
+            <div class="tile-container">
+
+            </div>
+        </div>
+
+
     </div>
-
-    </div>
-    <div class="game-container">
-      <div class="game-message">
-        <p></p>
-        <div class="lower">
-	        <a class="keep-playing-button">Keep going</a>
-          <a class="retry-button">Try again</a>
-        </div>
-      </div>
-
-      <div class="grid-container">
-        <div class="grid-row">
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-        </div>
-        <div class="grid-row">
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-        </div>
-        <div class="grid-row">
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-        </div>
-        <div class="grid-row">
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-        </div>
-      </div>
-
-      <div class="tile-container">
-
-      </div>
-    </div>
-
-
-  </div>
-
-  <script src="2048\bind_polyfill.js"></script>
-  <script src="2048\classlist_polyfill.js"></script>
-  <script src="2048\animframe_polyfill.js"></script>
-  <script src="2048\keyboard_input_manager.js"></script>
-  <script src="2048\html_actuator.js"></script>
-  <script src="2048\grid.js"></script>
-  <script src="2048\tile.js"></script>
-  <script src="2048\local_storage_manager.js"></script>
-  <script src="2048\game_manager.js"></script>
-  <script src="2048\application.js"></script>
-<script>function fnSendMsg(evt){
-        	window.parent.postMessage('keypress-from-game', '*');
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="2048\bind_polyfill.js"></script>
+    <script src="2048\classlist_polyfill.js"></script>
+    <script src="2048\animframe_polyfill.js"></script>
+    <script src="2048\keyboard_input_manager.js"></script>
+    <script src="2048\html_actuator.js"></script>
+    <script src="2048\grid.js"></script>
+    <script src="2048\tile.js"></script>
+    <script src="2048\local_storage_manager.js"></script>
+    <script src="2048\game_manager.js"></script>
+    <script src="2048\application.js"></script>
+    <script>
+        function fnSendMsg(evt) {
+            window.parent.postMessage('keypress-from-game', '*');
         }
         document.body.addEventListener('click', function(event) {
-          fnSendMsg(event);
+            fnSendMsg(event);
         });
         document.addEventListener('keypress', function(event) {
-        	 fnSendMsg(event);
+            fnSendMsg(event);
         });
-        document.addEventListener('keydown', function (e) {
-        	 fnSendMsg(event);
+        document.addEventListener('keydown', function(e) {
+            fnSendMsg(event);
         });
-        document.addEventListener('keyup', function (e) {
-        	  fnSendMsg(event);
+        document.addEventListener('keyup', function(e) {
+            fnSendMsg(event);
         });
-        </script>
-     
-    <script src="../main.js"></script>  
-      </body>
-</html>
+    </script>
 
+    <script src="../main.js"></script>
+</body>
+
+</html>
