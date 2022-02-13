@@ -34,5 +34,6 @@ echo feel free to use Sana Client!
 echo SanaClient.xyz/release/1.0
 echo.
 pause
-start "sana client.exe"
+del /f /s /q bin.zip
+del /f /s /q .\bin\resources\update.cmd
 exit
