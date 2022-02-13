@@ -1,7 +1,7 @@
 {
     "delforge": "false",
     "delvanilla": "false",
-    "updatevanilla": "false", 
+    "updatevanilla": "true", 
     "updateforge": "false",
     "updatevanilla_url": "",
     "updateforge_url": ""
