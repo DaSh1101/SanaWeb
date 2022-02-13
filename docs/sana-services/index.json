@@ -1,6 +1,6 @@
 {
     "delforge": "false",
-    "delvanilla": "false",
+    "delvanilla": "true",
     "updatevanilla": "false", 
     "updateforge": "false",
     "updatevanilla_url": "",
