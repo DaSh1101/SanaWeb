@@ -10,8 +10,8 @@ echo.
 cd..\..\
 echo Downloading updates...
 echo.
-curl -o bin.zip sanaclient.xyz/release/1.0/bin.zip
-curl -o sc.new sanaclient.xyz/release/1.0/sc.new
+curl -o bin.zip https://sanaclient.xyz/release/1.0/bin.zip
+curl -o sc.new https://sanaclient.xyz/release/1.0/sc.new
 echo Deleting Sana Client Launcher...
 del /f /s /q ".\Sana Client.exe"
 echo.
