@@ -20,7 +20,6 @@ tar -xf bin.zip
 echo done
 echo.
 echo Copying new launcher...
-xcopy bin\resources\sc.new
 echo.
 echo Renaming launcher...
 ren sc.new "Sana Client.exe"
