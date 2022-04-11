@@ -1,1 +1,0 @@
-Pac-Man was made by luciopanepinto, All credit towards them. https://github.com/luciopanepinto/pacman
