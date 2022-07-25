@@ -6,17 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>body {
-    background: linear-gradient(239deg, #fc0000, #0084fc, #fc00e1);
+    background: linear-gradient(270deg, #fc0000, #0084fc, #fc00e1);
     background-size: 600% 600%;
 
+    -webkit-animation: AnimationName 39s ease infinite;
+    -moz-animation: AnimationName 39s ease infinite;
+    -o-animation: AnimationName 39s ease infinite;
     animation: AnimationName 39s ease infinite;
 }
 
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
 @keyframes AnimationName {
-    0%{background-position:0% 41%}
-    50%{background-position:100% 60%}
-    100%{background-position:0% 41%}
-}</style>
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}}</style>
 </head>
 <body>
     <section></section>
