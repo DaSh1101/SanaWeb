@@ -2,14 +2,9 @@ body {
     color:white;
     margin: 0px;
     font-family: sans-serif;
-    <!--background-image: url("../images/bg.jpg");-->
-    background: rgb(241,140,142);
-background: -moz-linear-gradient(145deg, rgba(241,140,142,1) 0%, rgba(240,183,164,1) 40%, rgba(241,209,181,1) 48%, rgba(86,142,166,1) 63%, rgba(48,95,114,1) 94%);
-background: -webkit-linear-gradient(145deg, rgba(241,140,142,1) 0%, rgba(240,183,164,1) 40%, rgba(241,209,181,1) 48%, rgba(86,142,166,1) 63%, rgba(48,95,114,1) 94%);
-background: linear-gradient(145deg, rgba(241,140,142,1) 0%, rgba(240,183,164,1) 40%, rgba(241,209,181,1) 48%, rgba(86,142,166,1) 63%, rgba(48,95,114,1) 94%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f18c8e",endColorstr="#305f72",GradientType=1);
-    <!--background-size:auto;
-    background-repeat: no-repeat;-->
+    background-image: url("../images/bg.jpg");
+    background-size:auto;
+    background-repeat: no-repeat;
   }
   ul {
     list-style-type: none;
