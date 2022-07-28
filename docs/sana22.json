@@ -1,5 +1,5 @@
 {
-    "dev_Launch_access": true,
+    "dev_Launch_access": false,
     "dev_Login_access": true,
     "reg_Launch_access": false,
     "update": false,
