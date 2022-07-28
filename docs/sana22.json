@@ -1,9 +1,8 @@
 {
-    "dev_Launch_access": false,
-    "dev_Login_access": true,
+    "dev_Login_access": false,
     "reg_Launch_access": false,
     "update": false,
     "update_text": "",
-    "dev_Launch_reason":"",
-    "dev_Login_reason":""
+    "reg_Launch_reason":"Test",
+    "dev_Login_reason":"Dev Test"
 }
