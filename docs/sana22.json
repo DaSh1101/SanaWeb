@@ -1,8 +1,0 @@
-{
-    "dev_Login_access": false,
-    "reg_Launch_access": true,
-    "update": false,
-    "update_text": "",
-    "reg_Launch_reason":"Test",
-    "dev_Login_reason":"Dev Test"
-}
